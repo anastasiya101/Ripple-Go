@@ -12,11 +12,12 @@
             margin: 0;
             padding: 0;
         }
-        header, footer {
-            background-color: #00796b;
-            color: white;
-            text-align: center;
+        header {
+            background-color: #00796b; /* Darker green background for header */
+            color: #ffffff; /* White text for header */
             padding: 20px 0;
+            text-align: center;
+            font-size: 24px;
         }
         .container {
             max-width: 800px;
@@ -26,19 +27,49 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             border-radius: 8px;
         }
-        a {
-            color: #0077cc;
-        }
         h1, h2 {
             color: #6ed8d3;
         }
+        p {
+            line-height: 1.6; /* Makes text more readable by increasing line height */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            background-color: #004d40; /* Dark green background for nav */
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #00796b; /* Slightly lighter green for hover effect */
+        }
+        footer {
+            background-color: #00796b; /* Darker green background for footer */
+            color: #ffffff; /* White text for footer */
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
     </style>
 </head>
 <body>
     <header>
         About Blockchain and XRP
     </header>
-    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="features.html">Features</a>
+        <a href="contact.html">Contact</a>
+    </nav>
     <div class="container">
         <h2>What is Blockchain?</h2>
         <p>Blockchain is a distributed ledger technology that allows data to be stored globally on thousands of servers while letting anyone on the network see everyone else's entries in real-time. This makes it difficult for one user to gain control of the network or tamper with its data. The most well-known application of blockchain technology is cryptocurrencies, such as Bitcoin and Ethereum.</p>
