@@ -7,4 +7,4 @@ An app designed to encourage people to become more physically actove by going on
 #### Objective: 
 Making people more active and encouraging them to go outside and on walks/runs. Aiming to make fitness more rewarding and fun with extra mental challenges while introducing the cryptocurrency.
 
-- [HTML Starter (use GemWallet within your browser without any frontend framework)](/html-starter/)
+https://anastasiya101.github.io/Ripple-Go/)https://anastasiya101.github.io/Ripple-Go/
